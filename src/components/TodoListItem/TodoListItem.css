@@ -1,0 +1,44 @@
+.todo-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.item-title {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px #000;
+    color: #ff0;
+}
+.btn-wrap {
+    display: flex;
+}
+.todo-item button {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    text-shadow: 0 1px 2px #000;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #fff;
+    outline: none;
+}
+button:active {
+    box-shadow: none;
+}
+button.del-btn {
+    background-color: coral;
+    color: #fff;
+}
+button.edit-btn {
+    background-color: chartreuse;
+    color: #fff;
+}

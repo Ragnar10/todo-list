@@ -1,0 +1,8 @@
+.list-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    background-color: darkblue;
+    outline: 10px solid #fff;
+}

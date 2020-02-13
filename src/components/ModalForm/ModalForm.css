@@ -1,0 +1,54 @@
+.modal-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid #333;
+    box-shadow: 0 2px 5px #000;
+    padding: 10px;
+    background-color: azure;
+    position: fixed;
+    top: 50px;
+    left: calc(50% - 260px);
+    z-index: 100;
+}
+.input-wrap {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input-wrap label {
+    display: block;
+    width: 100px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+.input-wrap input {
+    width: calc(100% - 130px);
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 7px;
+    border: 1px solid #777;
+    outline: none;
+}
+.modal-form button {
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #000;
+    outline: none;
+    color: #fff;
+}
+.modal-form button:active {
+    box-shadow: none;
+}
+.save-btn {
+    background-color: chartreuse;
+    margin-right: 10px;
+}
+.cancel-btn {
+    background-color: salmon;
+}
